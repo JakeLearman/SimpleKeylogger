@@ -7,4 +7,4 @@ The PHP file takes in a keystroke value as stores it in a text file. EZPZ.
 
 I tested it using XAMPP to host a local server and it worked well, Chrome might not let you run it because "it depreciates user experiences" using jQuery apparently. 
 
-If you have a questions you can reach me on my website [here](jakelearman.github.io)
+If you have a questions you can reach me on my website [here](https://jakelearman.github.io)
